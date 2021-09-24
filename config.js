@@ -1,32 +1,42 @@
-const os = process
-global.DeveloperMode = 'false' //true Or false
-global.owner = ['6281567987793', '6281567987793'] || os.env["6281567987793"]// Put your number here
-global.linkGC = ['']
-global.mods = ['6281567987793', '6281567987793'] // Want some help?
-global.prems = ['6281567987793', '6281567987793'] // Premium user has unlimited limit
+let fs = require('fs')
+global.owner = ['6283102050562'] // Letakan nomor kamu disini
+global.mods = [] // Moderator?
+global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
-  // name: 'https://website'
+  // nama: 'https://website'
+  bx: 'https://bx-hunter.herokuapp.com',
+  dhnjing: 'https://dhnjing.xyz',
+  hardianto: 'https://hardianto-chan.herokuapp.com',
+  jonaz: 'https://jonaz-api-v2.herokuapp.com',
+  neoxr: 'https://neoxr-api.herokuapp.com',
   nrtm: 'https://nurutomo.herokuapp.com',
+  pencarikode: 'https://pencarikode.xyz',
   xteam: 'https://api.xteam.xyz',
-  vhtear: 'https://vhtear.com',
+  zahir: 'https://zahirr-web.herokuapp.com',
+  zekais: 'http://zekais-api.herokuapp.com',
   zeks: 'https://api.zeks.xyz',
-  clph: 'https://recoders-area.caliph.repl.co'
 }
-global.APIKeys = { // APIKey Here
+global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
+  'https://bx-hunter.herokuapp.com': 'Ikyy69',
+  'https://hardianto-chan.herokuapp.com': 'hardianto',
+  'https://neoxr-api.herokuapp.com': 'yntkts',
+  'https://pencarikode.xyz': 'pais',
   'https://api.xteam.xyz': '9c8ec9201f4a9b20',
-  'https://recoders-area.caliph.repl.co': 'FreeApi',
-  'https://vhtear.com': 'AdiOfficial404',
-  'https://api.zeks.xyz': 'FeGgLPGEeREadOgAVcjAb13EADl'
+  'https://zahirr-web.herokuapp.com': 'zahirgans',
+  'https://api.zeks.xyz': 'FeGgLPGEeREadOgAVcjAb13EADl',
 }
 
 // Sticker WM
-global.packname = 'Sticker ajg'
-global.author = 'babangtamvan'
+global.packname = 'topupmurah'
+global.author = '08515533010'
 
-global.multiplier = 69 // The higher, The harder levelup
+global.wait = '_*tunggu..*_'
+global.eror = '_*Sorry Sibuk gw*_'
+global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=night-star-logo&fontname=BlackChancery&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
-let fs = require('fs')
+global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
+
 let chalk = require('chalk')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
