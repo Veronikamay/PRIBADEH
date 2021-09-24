@@ -15,12 +15,12 @@ let { MessageType, mentionedJid } = require('@adiwajshing/baileys')
 
 let handler  = async (m, { conn, usedPrefix: _p, command }) => {
 let old = performance.now()
-await conn.fakeReply(m.chat, '*「 ⚠️ 」Loading...*', '0@s.whatsapp.net', '*Menampilkan List Menu*', 'status@broadcast')
+await conn.fakeReply(m.chat, '*tunggu....*', '0@s.whatsapp.net', '*Menampilkan List Menu*', 'status@broadcast')
 const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const groupsIn = groups.filter(v => !v.read_only)
 let AdiOfficial = './src/avatar_contact.png'
-let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
+let pantek = 'https://i.ibb.co/t473Cyb/IMG-20210924-WA0358.jpg'
 
   try {
     AdiOfficial = await conn.getProfilePicture(m.sender)
@@ -132,7 +132,7 @@ let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
 │├❒ *Xp : %totalexp*
 │├❒ *Limit : %limit*
 │├❒ *Level : %level*
-│├❒ *Premium : ${premium ? 'Yes' : 'Gratisan'}*
+│├❒ *Premium : ${premium ? 'Yes' : 'No'}*
 │└❒ *Register : ${registered ? 'Yes' : 'No'}*
 │
 ├◪ *TIME ⏳*
@@ -152,11 +152,11 @@ let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
 ├◪ *INFO*
 ││
 │├❒ *Owner Of This Bot*
-│├❒ _http://wa.me/6289504585790_
+│├❒ _http://wa.me/6281567987793_
 │├❒ *Official WhatsApp Bot Groups*
-│├❒ *https://bit.ly/Grupgabutbotv1*
-│├❒ *Tap To Join our Telegram Group*
-│└❒ *https://t.me/gabutsquad44*
+│├❒ *https://bit.ly/3lUDmt0*
+│├❒ *Tap To Join our Telegram Channel*
+│└❒ *https://bit.ly/3EO2tpY*
 │
 └───────────────────────
 %readmore`
