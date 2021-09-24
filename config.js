@@ -1,9 +1,9 @@
 const os = process
 global.DeveloperMode = 'false' //true Or false
-global.owner = ['33623746892', '6289504585790'] || os.env["OWNER_NUMBER"]// Put your number here
-global.linkGC = ['http://bit.ly/Grupgabutbotv1']
-global.mods = ['33623746892', '6289504585790'] // Want some help?
-global.prems = ['33623746892', '6289504585790'] // Premium user has unlimited limit
+global.owner = ['6281567987793', '6281567987793'] || os.env["6281567987793"]// Put your number here
+global.linkGC = ['']
+global.mods = ['6281567987793', '6281567987793'] // Want some help?
+global.prems = ['6281567987793', '6281567987793'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -14,15 +14,15 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'ISI APIKEY LU',
+  'https://api.xteam.xyz': '9c8ec9201f4a9b20',
   'https://recoders-area.caliph.repl.co': 'FreeApi',
   'https://vhtear.com': 'AdiOfficial404',
-  'https://api.zeks.xyz': 'apivinz'
+  'https://api.zeks.xyz': 'FeGgLPGEeREadOgAVcjAb13EADl'
 }
 
 // Sticker WM
-global.packname = 'Sticker Dari Bot Adi'
-global.author = 'GH: Adi-OfficialL'
+global.packname = 'Sticker ajg'
+global.author = 'babangtamvan'
 
 global.multiplier = 69 // The higher, The harder levelup
 
