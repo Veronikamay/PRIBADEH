@@ -26,15 +26,15 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['wasted']
 handler.tags = ['sticker']
 handler.command = /^wasted$/i
-handler.owner = false
-handler.mods = false
+handler.owner = true
+handler.mods = true
 handler.premium = false
-handler.group = false
+handler.group = true
 handler.private = false
-handler.register = true
+handler.register = false
 
 handler.limit = true
-handler.admin = false
+handler.admin = true
 handler.botAdmin = false
 
 handler.fail = null
