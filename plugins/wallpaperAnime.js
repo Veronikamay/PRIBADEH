@@ -17,6 +17,6 @@ handler.help = ['wallpaperanime']
 handler.tags = ['nime']
 handler.command = /^(wallpaper|wp)anime$/i
 handler.limit = true
-handler.register = true
+handler.register = false
 
 module.exports = handler
