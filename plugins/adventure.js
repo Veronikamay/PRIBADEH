@@ -70,7 +70,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.help = ['adventure', 'petualang', 'berpetualang', 'mulung', 'work']
 handler.tags = ['rpg']
 handler.command = /^(adventure|(ber)?petualang(ang)?|mulung|work)$/i
-handler.register = true
+handler.register = false
 
 handler.fail = null
 
