@@ -10,8 +10,8 @@ let handler = async function (m, { text, usedPrefix }) {
   let totalreg = Object.keys(global.DATABASE._data.users).length
   if (!name) throw 'Nama tidak boleh kosong!'
   if (!age) throw 'Umur tidak boleh kosong!'
-  if (age < 13) throw 'Maaf, Anda belum bisa mendaftar.\n*Minimal umur 13 Ke Atas*'
-  if (age > 30) throw 'Maaf, Anda terlalu tua.'
+  if (age < 1) throw 'Maaf, Anda belum bisa mendaftar.\n*Minimal umur 13 Ke Atas*'
+  if (age > 99) throw 'Maaf, Anda terlalu tua.'
   user.name = name
   user.age = parseInt(age)
   user.regTime = + new Date
