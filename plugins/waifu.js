@@ -7,12 +7,12 @@ let fetch = require('node-fetch')
 handler.help = ['waifu']
 handler.tags = ['nulis']
 handler.command = /^waifu$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
-handler.group = false
+handler.group = true
 handler.private = false
-handler.register = true
+handler.register = false
 
 handler.limit = true
 handler.admin = false
