@@ -21,16 +21,14 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 handler.help = ['mp3','a'].map(v => 'yt' + v + ` <url> [server: ${servers.join(', ')}]`)
 handler.tags = ['downloader']
 handler.command = /^yt(a|mp3)$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
-handler.group = false
+handler.group = true
 handler.private = false
-handler.register = true
-handler.premium = true
 
-handler.admin = false
-handler.botAdmin = false
+handler.admin = true
+handler.botAdmin = true
 
 handler.fail = null
 handler.exp = 0
