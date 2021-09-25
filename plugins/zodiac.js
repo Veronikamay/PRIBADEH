@@ -28,7 +28,6 @@ handler.help = ['zodiac *2007 04 19*']
 handler.tags = ['tools']
 
 handler.command = /^zodia[kc]$/i
-handler.register = true
 
 module.exports = handler
 
