@@ -8,7 +8,7 @@ let handler = async (m) => {
 handler.help = ['wirid']
 handler.tags = ['islamic']
 handler.command = /^(wirid)$/i
-handler.register = true
+handler.register = false
 
 handler.fail = null
 handler.limit = false
