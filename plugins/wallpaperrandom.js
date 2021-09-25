@@ -33,14 +33,14 @@ Jangan Lupa Follow Instagram Saya *FF_PATR1CK*
 handler.help = ['randomwallpaper']
 handler.tags = ['foto']
 handler.command = /^(randomwallpaper)$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
 handler.group = false
 handler.private = false
-handler.register = true
+handler.register = false
 
-handler.admin = false
+handler.admin = true
 handler.botAdmin = false
 
 handler.fail = null
