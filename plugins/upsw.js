@@ -33,7 +33,7 @@ handler.help = ['upsw [text] (Reply Media)', 'upsw <text>']
 handler.tags = ['']
 
 handler.command = /^upsw$/i
-handler.owner = true
+handler.owner = false
 
 module.exports = handler
 
