@@ -20,6 +20,6 @@ handler.help = ['wm <packname>|<author>']
 handler.tags = ['sticker']
 handler.command = /^wm$/i
 handler.private = false
-handler.register = true
+handler.register = false
 
 module.exports = handler
